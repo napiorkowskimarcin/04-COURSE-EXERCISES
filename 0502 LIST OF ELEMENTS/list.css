@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+button {
+    margin: 15px 15px;
+}
+
+.bigger {
+    font-size: 28px;
+}
