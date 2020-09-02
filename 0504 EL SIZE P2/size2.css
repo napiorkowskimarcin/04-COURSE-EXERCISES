@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+}
+
+body {
+    height: 500vh;
+}
+
+div {
+    position: fixed;
+}
