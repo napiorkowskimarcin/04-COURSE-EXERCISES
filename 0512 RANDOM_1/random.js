@@ -6,7 +6,7 @@ arr1 = [10, 11, 12, 13, 14, 15, 'a', 'b', 'c', 'd'];
 let i;
 let arrL = arr1.length;
 
-const arrGen = (arr1) => {
+const arrGen = (array) => {
     let i = Math.floor(Math.random() * arrL);
     console.log(i);
     //console.log(arr[i]);
