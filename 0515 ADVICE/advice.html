@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 12px;
+            text-transform: uppercase
+        }
+
+        button {
+            background-color: #fff;
+            margin: 2px;
+            cursor: pointer;
+            text-transform: uppercase;
+            border: solid 2px;
+            transition: .3s;
+        }
+
+        button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <p>add advice:</p> <input type="text"><button id="add">Add</button><button id="remove">Remove</button>
+    <div>Give me random elements!</div>
+    <button id="adv">show random element</button>
+    <button id="options">show all</button>
+    <div id="divAdv"></div>
+
+
+    <script src="advice.js"></script>
+</body>
+
+</html>
