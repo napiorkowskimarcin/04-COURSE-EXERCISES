@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="met.css">
+</head>
+
+<body>
+    <main class="intro">
+        <h1>LETS SEE HOW METHODS WORK:</h1>
+        <!-- SHOWING FIRST ARRAY -->
+        <h2>Lets have an array:</h2>
+        <span id="arrSpan"></span>
+    </main>
+    <section class="methods">
+        <!-- MULTIPLY FIRST ARRAY -->
+        <div>
+            <h3>We can multiply all of the items with map:</h3>
+            <input id="inputMulti" type="text"><button id="btnMulti">multiplier</button>
+            <span id="multiplied"></span>
+        </div>
+        <!-- SUMMING MULTIPLIED ARRAY -->
+        <div>
+            <h3>We can sum all of the items of the multiplied array:</h3>
+            <span id="summed"></span><button id="btnSum">Update the sum</button>
+        </div>
+        <!--ADDING NEW ELEMENTS TO THE FIRST ARRAY  -->
+        <div>
+            <h3>We can add some new elements:</h3>
+            <input id="inputAdd" type="text"><button id="btnAdd">Add</button> <span id="addText"></span>
+        </div>
+        <!--CHECK IF EVERY ELEMENT IS GREATER  -->
+        <div>
+            <h3>We can check if every element of multipled array is greater or equal than 3</h3>
+            <p>It is <span id="greaterValue">???</span> that every element is greater or equal than 3</span>
+                <button id="btnCheck">Check it!</button>
+        </div>
+
+        <!-- SELECT RANDOM NUMBER -->
+        <div>
+            <h3>You can select a random item of multiplied array:</h3>
+            <button id="btnRandom">Pick up one!</button>
+            <span>That random item is: <span id="random">...</span> </span>
+        </div>
+        <!--ADD NEXT RANDOM NUMBER -->
+        <div>
+            <h3>If you want, you can see more random elements to see how it works</h3>
+            <button id="addDiv">Show me more</button>
+            <div id="moreElements"></div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    <script src="met.js"></script>
+</body>
+
+</html>

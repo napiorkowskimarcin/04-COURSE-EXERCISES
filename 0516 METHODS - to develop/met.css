@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+main,
+section {
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+div {
+    margin-top: 20px;
+    font-size: 16px;
+    ;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: .4s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+input:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+#moreElements {
+    margin-top: 0px;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#moreElements div {
+    margin-top: 5px;
+}
