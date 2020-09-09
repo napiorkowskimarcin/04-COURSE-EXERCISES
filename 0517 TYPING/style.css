@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    max-width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.cursor {
+    opacity: 0;
+    transition: .2s;
+}
+
+.cursor.active {
+    opacity: 1;
+}
