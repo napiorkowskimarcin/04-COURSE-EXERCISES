@@ -59,7 +59,10 @@ const start = () => {
 
 const reset = () => {
     time = 0;
-    panel.textContent = '-----'
+    panel.textContent = '-----';
+    clearInterval(idI);
+    btnStart.textContent = 'start';
+    active = false;
 }
 
 
