@@ -1,7 +1,7 @@
 let mainArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //SHOWING FIRST ARRAY
 const arrSpan = document.getElementById('arrSpan');
-arrSpan.textContent = `First array is is: [${mainArr}]`;
+arrSpan.textContent = `First array is: [${mainArr}]`;
 
 //MULTIPLY FIRST ARRAY
 const multiSpan = document.getElementById('multiplied');
@@ -89,3 +89,11 @@ const randomDiv = () => {
 }
 
 document.getElementById('addDiv').addEventListener('click', randomDiv);
+
+//FILTER EVEN NUMBERS
+filterEven = n => document.getElementById('evenN').textContent = newMainArr.filter((n) => !(n % 2))
+document.getElementById('btnEven').addEventListener('click', filterEven);
+
+
+everyEven = n => document.getElementById('everyEven').textContent = newMainArr.every(n => !(n % 2));
+document.getElementById('btnEveryEven').addEventListener('click', everyEven)

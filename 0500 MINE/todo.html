@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <header><span id="time">00:00:00</span><span id="name">---------</span> </header>
+    <section class="importData" id="importData">
+        <div>
+            put title<input type="text" id="putTitle" size="40px"></div>
+
+        <div>
+            put task<input type="text" id="putTask" size="40px"></div>
+        <div>
+            is it important? select 1-5
+            <select class="form-control" id="formControl">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id="acceptImport">AddTask</button>
+        </div>
+    </section>
+    <section class="login" id="divLogin">
+        <p>PUT NAME AND PASS TO OPEN THIS APP</p>
+        <div><input type="text" id="putNick" size="20px" placeholder=" NICK: PUT 'NAME'"></div>
+        <div><input type="password" id="putPassword" size="20px" placeholder=" PASS: PUT 'PASS'"></div>
+        <button id="logIn">LOG-IN</button>
+    </section>
+    <main id="main">
+        <!-- <div class="taskContainer">
+            <div class='title'>TITLE OF TASK1</div>
+            <div class='name'>THIS IS TASK ONE. IT IS IMPORTANT TO FINISH IT AS IT IS HALF OF THE PROJECT OR MORE.</div>
+            <div class='rate'>RATE <span></span></div>
+            <button id="rmTask">finished</button>
+        </div> -->
+
+    </main>
+
+
+
+
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
